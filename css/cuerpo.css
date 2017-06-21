@@ -8,17 +8,42 @@ header{
 div.con1{
 	margin-left: 25px;
 	padding-left: 23px;
-	height: 175px;
+	height: 135px;
 	width: 70%;
-	border-bottom: 5px solid #0FBBC1;
+	/*border-bottom: 5px solid #0FBBC1;*/
 	 
 }
-img{
+
+img.im{
 	float: right;
+	width: 150px;
+	height: 80px;
+	padding-top: 0px;
+	padding-bottom: 10px;
 }
+img.im1{
+	/*float: right;*/
+	width: 200px;
+	height: 200px;
+	position: absolute;/*poner una imagen en cualquier lugar*/
+	bottom: 238px;
+	right: 158px;/*sirve para alinearlo a la derecha*/
+	/*margin-bottom: 40px*/
+	
+}
+img.im2{
+	float: right;
+	width: 300px;
+	height: 300px;
+	
+}
+
 hr{
-
-
+	height: 3px;
+	margin-left:2%;
+	margin-right:25%;
+	background-color: #0FBBC1;
+	
 }
 h1{
 	text-align: left;
@@ -29,6 +54,9 @@ h1{
 h2{
 	color:  #0FBBC1;
 	font-weight: bold;
+}
+p{
+	font-size: 16px;
 }
 div.con2{
 	margin-left: 25px;
