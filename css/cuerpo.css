@@ -5,43 +5,35 @@ header{
 	padding-bottom: 10Px; 
 	background-color: #0FBBC1;
 }	
-div.con1{
-	margin-left: 25px;
-	padding-left: 23px;
-	height: 135px;
-	width: 70%;
-	/*border-bottom: 5px solid #0FBBC1;*/
-	 
-}
 
 img.im{
 	float: right;
-	width: 150px;
-	height: 80px;
-	padding-top: 0px;
+	width: 180px;
+	height: 110px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
 img.im1{
 	/*float: right;*/
-	width: 200px;
-	height: 200px;
-	position: absolute;/*poner una imagen en cualquier lugar*/
-	bottom: 238px;
-	right: 158px;/*sirve para alinearlo a la derecha*/
+	width: 150px;
+	height: 150px;
+	/*position: absolute;/*poner una imagen en cualquier lugar*/
+	/*bottom: 350px;
+	right: 250px;/*sirve para alinearlo a la derecha*/
 	/*margin-bottom: 40px*/
 	
 }
 img.im2{
+	
+	width: 280px;
+	height: 280px;
 	float: right;
-	width: 300px;
-	height: 300px;
 	
 }
 
 hr{
-	height: 3px;
-	margin-left:2%;
-	margin-right:25%;
+	height: 5px;
+	margin-left:0px;
 	background-color: #0FBBC1;
 	
 }
@@ -56,45 +48,56 @@ h2{
 	font-weight: bold;
 }
 p{
-	font-size: 16px;
+	font-size: 14px;
 }
-div.con2{
-	margin-left: 25px;
-	padding-left: 23px;
-	height: 160px;
-	width: 70%;
-}
-div.form{
-	margin-left: 50px;
-	margin-top: 30px;
-	padding-left: 5px;
-	height: 160px;
-	width: 30%;
+
+article.form{
+	height: 155px;
+	width: 930px;
+	background-color:#D3595D; 
 	/*border-style: solid;*/
 }
 
-ul{
-	margin-left: 0px;
-	margin-top: 0px;
-	padding-left: 0px;
+p.colour{
+	color: white;
+}
 
+
+ul{
+	  /*list-style-type: none;*/
+    margin: 0;
+    padding: 0;
+	/* width: 400px;*/
+	 /*padding-left: 30px;
+	/*position: absolute;
+	bottom: 185px;
+	right: 950px;*/
 }
 li{
-	margin-left: 5px;
-	margin-top: 10px;
-	padding-left: 10px;
-	list-style-type: none;
+	margin-bottom: 10px;
+	padding-left: 5px;
 	color: white;
 	font-weight: bold;
 	background-color: #6DD2CF;
+	
+}
+li a {
+	text-decoration: none;
+    display: block;
+    color: white;
+    
 }
 
-/*div.lista{
-	margin-left: 100px
-	margin-top: 30px;
-	padding-left: 35px;
-	height: 180px;
-	width: 30%;
-	border-style: solid;
-}*/
+li a:hover{
+	 background-color: #D3595D;
+	 color: white;
+}
+li a.active {
+    background-color: none;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #D3595D;
+    color: white;
+}
 
